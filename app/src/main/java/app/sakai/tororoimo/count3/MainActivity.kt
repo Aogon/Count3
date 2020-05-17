@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var number : Int = 0
+        var number2 : Int = 0
         numberView.text = number.toString()
 
         button.setOnClickListener {
